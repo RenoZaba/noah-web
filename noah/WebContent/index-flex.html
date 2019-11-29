@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" contend="widht=device-width, initial-scale=1.0" />
+<title>Insert title here</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type"text/css"/>
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<style type="text/css">
+div {
+	background-color: #ccc;
+	border: 1px solid #000;
+	min-height: 100px;
+}
+.flex-row{
+flex: 1 0 auto;
+
+}
+
+</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row justify-content-between">
+			<div class="col-3"></div>
+			<div class="col-6"></div>
+		</div>
+		<div class="row" id="rowConteudo">
+			<div class="col-9 d-flex">
+				<div class="d-flex flex-column w-100">
+					<div>
+					Primeiro
+					</div>
+					<div class="flex-row">
+					Segundo
+					</div>
+					<div>
+					Terceiro
+					</div>
+				</div>
+			</div>
+			<div class="col-3 d-flex">
+			    <div class="d-flex flex-column w-100"> 
+					<div > 
+					Primeiro
+					</div>
+					<div class="flex-row">
+					Segundo
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class=col-12>
+			Rodape
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
